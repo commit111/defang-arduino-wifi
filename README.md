@@ -7,9 +7,7 @@ This repository contains an interactive wifi-connected UI program for a [SenseCA
 
 The device has a square liquid-crystal touch screen display, and a ESP32-S3 chip that can be programmed in an Arduino environment.
 
-The program `welcome.ino`, acting as a client, pings data every 5 seconds after it is connected to a wifi network. It uses a library called [ArduinoHTTPClient](https://github.com/arduino-libraries/ArduinoHttpClient). It is also recommended to use [Arduino IDE](https://www.arduino.cc/en/software) when coding with `.ino` files. 
-
-The program's UI will display a message that is randomized in color and location on the screen at the same time during pings (every 5 seconds). 
+The program `welcome.ino`, acting as a client, pings data every 5 seconds after it is connected to a wifi network. It uses a library called [ArduinoHTTPClient](https://github.com/arduino-libraries/ArduinoHttpClient). It is also recommended to use [Arduino IDE](https://www.arduino.cc/en/software) when coding with `.ino` files. The program's UI will display a message that is randomized in color and location on the screen at the same time during pings (every 5 seconds). 
 
 The Flask server in `web_server.py` receives these pings when it is initialized and connected to the same wifi network as the client. To initalize it, run `python web_server.py`. To view it, open `localhost` with the port number used. To deploy it to the cloud, run `defang up` in the `\welcome` directory.
 
