@@ -1,4 +1,4 @@
-# Interactive UI for Embedded Systems Project at Defang Software Labs (Wifi)
+# Arduino UI for Embedded Systems Project at Defang Software Labs (Wifi)
 *Note: This repository version is named "wifi" as it involves wifi networking. For the static (non-networking) version of this project, please see the `/defang-arduino-static` repository.*
 
 ![project image](./images/wifi.png)
