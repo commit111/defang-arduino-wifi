@@ -13,3 +13,6 @@ The Flask server in `web_server.py` receives these pings when it is initialized 
 
 A helpful file called `serial_reader.py` decodes serial monitor readings to a readable format, allowing you to see `Serial.println()` messages in real time when running.  To initalize it, run `python serial_reader.py` and see it show up in the terminal. 
 
+Here is a diagram showing the structure of the application. 
+
+![arduino wifi diagram](./images/arduino_wifi_diagram.png)
